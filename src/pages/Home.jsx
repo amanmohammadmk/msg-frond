@@ -70,6 +70,21 @@ function Home() {
             <div className='messages'>
                 <h2>Sent Messages</h2>
                 <ul>
+                    <li>Assalamualaikkum,
+Emaan okke settalle ath nalle pole maintain cheyye baki okke padachon tharum.
+
+Endhoko choikkandeni but jilnanodum fidhanodum ayond kayyilla .
+Kaka kand neritt onn nalle pole samsarikkan pattiye sugayini.
+Egane ayittum oru hopum korayilla . Padachon endha kande arila.
+Job in sha alha nallath uncle nokki settaki thara parajini but korach time edukkum athond 
+therakkaki keranda paraji. In sha alha nallath kittum vijariknn.
+Pinne nte ummakk oru koyappullatto ath orappan. 
+Kakane aloikkumbalan oru tension, egane onn nalle pole sammaypikka njan.
+Nallonam duarkke nte manass parayine korach time eduthalum ready avumnnanne.
+Nte bagathin endhe venelum parajondi tto.
+Pinne ante ummane sangada peduthane nokkanam.
+In sha alha nomb kayijitt ellarudi onn opparam irithi samsarippika njammak.
+Endhakko oru tension ann in sha alha ready avum<li/>
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
                     ))}
