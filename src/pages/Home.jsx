@@ -84,7 +84,7 @@ Nallonam duarkke nte manass parayine korach time eduthalum ready avumnnanne.
 Nte bagathin endhe venelum parajondi tto.
 Pinne ante ummane sangada peduthane nokkanam.
 In sha alha nomb kayijitt ellarudi onn opparam irithi samsarippika njammak.
-Endhakko oru tension ann in sha alha ready avum<li/>
+Endhakko oru tension ann in sha alha ready avum</li>
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
                     ))}
