@@ -53,13 +53,15 @@ function Home() {
             <div>
                 <label htmlFor="">ask a question</label>
                 <form onSubmit={handleSubmit}>
-                    <textarea
-                        cols="100"
-                        rows="10"
-                        placeholder='endhelum onn choiko'
-                        value={textareaValue}
-                        onChange={handleChange}
-                    />
+                    <div className="form-group">
+        <textarea
+            className="form-control"
+            rows="10"
+            placeholder='endhelum onn choiko'
+            value={textareaValue}
+            onChange={handleChange}
+        />
+    </div>
                     <br />
                     <button className='btn btn-info' type="submit">click to send</button>
                 </form>
