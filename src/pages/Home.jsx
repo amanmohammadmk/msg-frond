@@ -55,7 +55,7 @@ function Home() {
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
         <textarea
-            className="form-control"
+            className="form-control shadow-lg"
             rows="10"
             placeholder='endhelum onn choiko'
             value={textareaValue}
