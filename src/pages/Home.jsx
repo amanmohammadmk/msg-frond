@@ -33,7 +33,7 @@ function Home() {
 
             // Refetch data after sending message
             await fetchData();
-
+            alert("message sended");
             // Clear the textarea after sending message
             setTextareaValue('');
         } catch (error) {
