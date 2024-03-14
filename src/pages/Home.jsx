@@ -42,7 +42,7 @@ function Home() {
     };
 
     return (
-      User
+    
 <div className='container'>
             <div className='d-flex flex-column'>
                 <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid' alt="" />
