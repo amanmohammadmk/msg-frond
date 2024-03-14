@@ -42,7 +42,7 @@ function Home() {
     };
 
     return (
-        <div className='container'>
+       <div className='container'>
             <div className='d-flex flex-column'>
                 <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid' alt="" />
                 <img src="https://t4.ftcdn.net/jpg/04/14/98/69/360_F_414986997_S7stDm33phcjccvTJj8YMckRQF5JZoDr.jpg" className='img-fluid' alt="" />
@@ -53,15 +53,13 @@ function Home() {
             <div>
                 <label htmlFor="">ask a question</label>
                 <form onSubmit={handleSubmit}>
-                    <div className="form-group">
-        <textarea
-            className="form-control shadow-lg"
-            rows="10"
-            placeholder='endhelum onn choiko'
-            value={textareaValue}
-            onChange={handleChange}
-        />
-    </div>
+                    <textarea
+                        cols="100"
+                        rows="10"
+                        placeholder='endhelum onn choiko'
+                        value={textareaValue}
+                        onChange={handleChange}
+                    />
                     <br />
                     <button className='btn btn-info' type="submit">click to send</button>
                 </form>
@@ -70,11 +68,9 @@ function Home() {
             <div className='messages'>
                 <h2>Sent Messages</h2>
                 <ul>
-                   
                     {fetchedData.map((item, index) => (
-                        <li key={index}> {item.text}</li>
-
-                     ))}
+                        <li key={index}>{item.text}</li>
+                    ))}
                 </ul>
             </div>
         </div>
