@@ -70,6 +70,7 @@ function Home() {
             <div className='messages'>
                 <h2>Sent Messages</h2>
                 <ul>
+                    <li>miraskkante veetil parajappam oor veetkar agattum igattum poyi kand ready akki scenonnulleni. aa thatha shijinte czn ann</li>
                     <li> ante manass endha parayine onn parayo </li>
                     <li>
                     athan oru vishamyam kakak oru thalpparyum illa. pinne nnod ithum paraji kakante munnilekk verarthum parajini. athokke kekkumbala oru tension. njan veendum veendum ithanne choiche venna kakakkum ummakkum njan oru edageravo? 
