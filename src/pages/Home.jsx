@@ -70,6 +70,10 @@ function Home() {
             <div className='messages'>
                 <h2>Sent Messages</h2>
                 <ul>
+                    <li>
+                    athan oru vishamyam kakak oru thalpparyum illa. pinne nnod ithum paraji kakante munnilekk verarthum parajini. athokke kekkumbala oru tension. njan veendum veendum ithanne choiche venna kakakkum ummakkum njan oru edageravo? 
+                    oo nna vilikkand risk edukkanda satyam cheythalle. njan oru karyam choikkatte? kakakk thalpparyam illan theerth parajatha aa mindset maran vella chancum ndavo.  
+                    </li>
                     <li>Aa endhina ummane aloikumbam tension. Athonn mattane. Pinne kaka sammaykatha kakane parajit karyalla endhelum oru quality ink vende . 
 Nte emaanum ippam koyappalla . Kakane sammaypikkan endha cheyyande oru idea kittalla.
 Endhayalum nallonam durakke padachone nalloru vazhi kanicharum. Pinne endh cheyyumbalum emaanne bathikkathe nokkane athan main . ith ink evide delete akkan kayyum . onn nalla reethil ellarum sammaycha mathiyeni. nji nallonam duarke athe ullu. 
