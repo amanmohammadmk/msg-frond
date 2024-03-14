@@ -72,8 +72,10 @@ function Home() {
                 <ul>
                    
                     {fetchedData.map((item, index) => (
-                        <li key={index}>{item.text}</li>
-                    ))}
+            <div className="shadow-lg p-3" style={{ backgroundColor: '#f0f0f0', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}>
+                {item.text}
+            </div>
+                     ))}
                 </ul>
             </div>
         </div>
