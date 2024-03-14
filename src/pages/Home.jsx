@@ -42,48 +42,39 @@ function Home() {
     };
 
     return (
-       <div className='container'>
-    <div className='row'>
-        <div className='col-lg-6'>
+      User
+<div className='container'>
             <div className='d-flex flex-column'>
-                <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid mb-2' alt="" />
-                <img src="https://t4.ftcdn.net/jpg/04/14/98/69/360_F_414986997_S7stDm33phcjccvTJj8YMckRQF5JZoDr.jpg" className='img-fluid mb-2' alt="" />
-                <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid mb-2' alt="" />
-                <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid mb-2' alt="" />
+                <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid' alt="" />
+                <img src="https://t4.ftcdn.net/jpg/04/14/98/69/360_F_414986997_S7stDm33phcjccvTJj8YMckRQF5JZoDr.jpg" className='img-fluid' alt="" />
+                <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid' alt="" />
+                <img src="https://img.freepik.com/free-vector/gradient-hiring-poster-flyer-template_23-2150137321.jpg" className='img-fluid' alt="" />
             </div>
-        </div>
 
-        <div className='col-lg-6'>
             <div>
-                <label htmlFor="">Ask a question</label>
+                <label htmlFor="">ask a question</label>
                 <form onSubmit={handleSubmit}>
                     <textarea
-                        className="form-control"
-                        rows="5"
-                        placeholder='Enter your question here'
+                        cols="100"
+                        rows="10"
+                        placeholder='endhelum onn choiko'
                         value={textareaValue}
                         onChange={handleChange}
                     />
                     <br />
-                    <button className='btn btn-info' type="submit">Click to send</button>
+                    <button className='btn btn-info' type="submit">click to send</button>
                 </form>
             </div>
-        </div>
-    </div>
 
-    <div className='row mt-4'>
-        <div className='col'>
-            <div className='messages'>
+            <div className='messages container'>
                 <h2>Sent Messages</h2>
-                <ul className="list-unstyled">
+                <ul className="container">
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
                     ))}
                 </ul>
             </div>
         </div>
-    </div>
-</div>
 
     );
 }
