@@ -73,7 +73,8 @@ function Home() {
                     <li>Aa endhina ummane aloikumbam tension. Athonn mattane. Pinne kaka sammaykatha kakane parajit karyalla endhelum oru quality ink vende . 
 Nte emaanum ippam koyappalla . Kakane sammaypikkan endha cheyyande oru idea kittalla.
 Endhayalum nallonam durakke padachone nalloru vazhi kanicharum. Pinne endh cheyyumbalum emaanne bathikkathe nokkane athan main . ith ink evide delete akkan kayyum . onn nalla reethil ellarum sammaycha mathiyeni. nji nallonam duarke athe ullu. 
-                     endh ndelum parayanam tto. aa thatha pinne preshnam onnum ndakki vennillalo. </li>
+                     endh ndelum parayanam tto. aa thatha pinne preshnam onnum ndakki vennillalo. pinne ithil type cheyth send cheyyumbam koracheram onn wait cheyyane message sended paraji oru sanam verum ath nokkanam.
+                    pinne ank eppalelum pattane inne onn vilikko ippam venamilla kurach kayijit ayalum mathi. </li>
                     <li>Assalamualaikkum,
 Emaan okke settalle ath nalle pole maintain cheyye baki okke padachon tharum.
 
