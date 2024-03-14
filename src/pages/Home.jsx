@@ -70,32 +70,7 @@ function Home() {
             <div className='messages'>
                 <h2>Sent Messages</h2>
                 <ul>
-                    <li>miraskkante veetil parajappam oor veetkar agattum igattum poyi kand ready akki scenonnulleni. aa thatha shijinte czn ann</li>
-                    <li> ante manass endha parayine onn parayo </li>
-                    <li>
-                    athan oru vishamyam kakak oru thalpparyum illa. pinne nnod ithum paraji kakante munnilekk verarthum parajini. athokke kekkumbala oru tension. njan veendum veendum ithanne choiche venna kakakkum ummakkum njan oru edageravo? 
-                    oo nna vilikkand risk edukkanda satyam cheythalle. njan oru karyam choikkatte? kakakk thalpparyam illan theerth parajatha aa mindset maran vella chancum ndavo.  
-                    </li>
-                    <li>Aa endhina ummane aloikumbam tension. Athonn mattane. Pinne kaka sammaykatha kakane parajit karyalla endhelum oru quality ink vende . 
-Nte emaanum ippam koyappalla . Kakane sammaypikkan endha cheyyande oru idea kittalla.
-Endhayalum nallonam durakke padachone nalloru vazhi kanicharum. Pinne endh cheyyumbalum emaanne bathikkathe nokkane athan main . ith ink evide delete akkan kayyum . onn nalla reethil ellarum sammaycha mathiyeni. nji nallonam duarke athe ullu. 
-                     endh ndelum parayanam tto. aa thatha pinne preshnam onnum ndakki vennillalo. pinne ithil type cheyth send cheyyumbam koracheram onn wait cheyyane message sended paraji oru sanam verum ath nokkanam.
-                    pinne ank eppalelum pattane inne onn vilikko ippam venamilla kurach kayijit ayalum mathi. </li>
-                    <li>Assalamualaikkum,
-Emaan okke settalle ath nalle pole maintain cheyye baki okke padachon tharum.
-
-Endhoko choikkandeni but jilnanodum fidhanodum ayond kayyilla .
-Kaka kand neritt onn nalle pole samsarikkan pattiye sugayini.
-Egane ayittum oru hopum korayilla . Padachon endha kande arila.
-Job in sha alha nallath uncle nokki settaki thara parajini but korach time edukkum athond 
-therakkaki keranda paraji. In sha alha nallath kittum vijariknn.
-Pinne nte ummakk oru koyappullatto ath orappan. 
-Kakane aloikkumbalan oru tension, egane onn nalle pole sammaypikka njan.
-Nallonam duarkke nte manass parayine korach time eduthalum ready avumnnanne.
-Nte bagathin endhe venelum parajondi tto.
-Pinne ante ummane sangada peduthane nokkanam.
-In sha alha nomb kayijitt ellarudi onn opparam irithi samsarippika njammak.
-Endhakko oru tension ann in sha alha ready avum</li>
+                   
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
                     ))}
