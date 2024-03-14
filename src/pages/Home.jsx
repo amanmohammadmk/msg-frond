@@ -70,6 +70,7 @@ function Home() {
             <div className='messages'>
                 <h2>Sent Messages</h2>
                 <ul>
+                    <li>inshalla agane onn cheythokka </li>
                     <li>
                     athan oru vishamyam kakak oru thalpparyum illa. pinne nnod ithum paraji kakante munnilekk verarthum parajini. athokke kekkumbala oru tension. njan veendum veendum ithanne choiche venna kakakkum ummakkum njan oru edageravo? 
                     oo nna vilikkand risk edukkanda satyam cheythalle. njan oru karyam choikkatte? kakakk thalpparyam illan theerth parajatha aa mindset maran vella chancum ndavo.  
