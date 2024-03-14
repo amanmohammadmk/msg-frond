@@ -72,9 +72,8 @@ function Home() {
                 <ul>
                    
                     {fetchedData.map((item, index) => (
-            <li className="shadow-lg p-3 mt-3">
-                {item.text}
-            </li>
+                        <li key={index}> {item.text}</li>
+
                      ))}
                 </ul>
             </div>
