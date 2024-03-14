@@ -65,7 +65,7 @@ function Home() {
                 </form>
             </div>
 
-            <div className='messages'>
+            <div className='messages container'>
                 <h2>Sent Messages</h2>
                 <ul>
                     {fetchedData.map((item, index) => (
