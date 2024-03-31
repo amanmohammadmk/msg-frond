@@ -69,12 +69,15 @@ function Home() {
             <div className='messages container'>
                 <h2>Sent Messages</h2>
                 <ul className="container" style={{ width: '100%', wordWrap: 'break-word' }}>
-                    <li>Assalamualaikkum, endhakka varthanam.emaan endha avastha? ippam keriyodath velya koyapponnulla pinne njan verim nokknd. endha areela nalle tension.
-                        Ank hope korajittonnullalo. kake umme endhelum parajino pinne. pinne inne whatsappil aa hide akkiye 
-                        onn ozhivakko njan ini msg akkula orapp.
+                    <li>
+                    oru sangadam lla time kayija nalle time ndavum padachon parajinallo.
+nji nallonam duarkke athre parayan ullu
                     </li>
-                    <li>tension ayitt onninum kayyinulla. endha kakante avastha onn nalle pole samsaricha ready avule inshalla</li>
-                   
+                    <li>pinne mukkath oru 3 or 5 monthinullil inshalla koyappallatha salary kittan thogum inshalla. pinne one year experiencum ayal porathekk povan ullathum settakkam inshalla
+</li>
+<li>pinne vere oru karyam endha vecha swargam ann ultimate. ath main ayitt prepare cheyytto.</li> 
+                    <li>nji endhelum onn choiko oru samadhanathin
+</li>
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
                     ))}
