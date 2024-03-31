@@ -73,6 +73,7 @@ function Home() {
                         Ank hope korajittonnullalo. kake umme endhelum parajino pinne. pinne inne whatsappil aa hide akkiye 
                         onn ozhivakko njan ini msg akkula orapp.
                     </li>
+                    <li>tension ayitt onninum kayyinulla. endha kakante avastha onn nalle pole samsaricha ready avule inshalla</li>
                    
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
