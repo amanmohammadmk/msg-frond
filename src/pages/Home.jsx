@@ -69,18 +69,15 @@ function Home() {
             <div className='messages container'>
                 <h2>Sent Messages</h2>
                 <ul className="container" style={{ width: '100%', wordWrap: 'break-word' }}>
-                    <li>
-                    oru sangadam lla time kayija nalle time ndavum padachon parajinallo.
-nji nallonam duarkke athre parayan ullu
-                    </li>
-                    <li>pinne mukkath oru 3 or 5 monthinullil inshalla koyappallatha salary kittan thogum inshalla. pinne one year experiencum ayal porathekk povan ullathum settakkam inshalla
-</li>
-<li>pinne vere oru karyam endha vecha swargam ann ultimate. ath main ayitt prepare cheyytto.</li> 
-                    <li>nji endhelum onn choiko oru samadhanathin
-</li>
+
+                    
+  
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
                     ))}
+
+                    <li>oi</li>
+                    <li>parayu</li>
                 </ul>
             </div>
         </div>
