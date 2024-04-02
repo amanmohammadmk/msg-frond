@@ -76,8 +76,6 @@ function Home() {
                         <li key={index}>{item.text}</li>
                     ))}
 
-                    <li>oi</li>
-                    <li>parayu</li>
                 </ul>
             </div>
         </div>
