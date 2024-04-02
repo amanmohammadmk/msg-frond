@@ -70,6 +70,23 @@ function Home() {
                 <h2>Sent Messages</h2>
                 <ul className="container" style={{ width: '100%', wordWrap: 'break-word' }}>
 
+                    <li>Choykan nthoko nd But Ippo choykkanda Nji happy aaya madhi , pinne Aarogyam nokkane Athepolenne nthenkilu business start cheythoode ank?? Financially stable aavandee
+</li>
+                    <li>Yes avanam in sha alha
+</li>
+                    <li>Ank ntho onn pateeknnalloo! What happened?
+</li>
+                    <li>Aa endhayy. Onnullallo
+</li>
+
+                    <li>Onn parayi
+</li>
+                    <li>Ooke ready avum in sha alha nji duark
+</li>
+                    <li>nja nomb onn kayyate nte onn rand hotel parivadikal kand vechin inshalla ready akkanam. antel endhelum idea ndo? ithinte server edak down ayi ponn
+</li>
+                    <li>endhelum adipoli ideakal ndo</li>
+
                     
   
                     {fetchedData.map((item, index) => (
