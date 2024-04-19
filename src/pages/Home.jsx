@@ -71,6 +71,7 @@ function Home() {
                 <ul className="container" style={{ width: '100%', wordWrap: 'break-word' }}>
 
                     <li>Assalamualaikkum</li>
+                    <li>endhakka ante varthanam</li>
                     <li>Endhoko parayan ndeni, but jilnanodum fidhanodum ayitt nadakkilla</li>
                     <li>pinne ink oru changum illatto athe pole thanne nd</li>
                     <li>ankum change onnum illallo?</li>
