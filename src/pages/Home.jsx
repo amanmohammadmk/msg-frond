@@ -69,7 +69,14 @@ function Home() {
             <div className='messages container'>
                 <h2>Sent Messages</h2>
                 <ul className="container" style={{ width: '100%', wordWrap: 'break-word' }}>
-                    
+
+                    <li>Assalamualaikkum</li>
+                    <li>Endhoko parayan ndeni, but jilnanodum fidhanodum ayitt nadakkilla</li>
+                    <li>pinne ink oru changum illatto athe pole thanne nd</li>
+                    <li>ankum change onnum illallo?</li>
+                    <li>ummanodo kakkkanodo uppanodo samssarikkande endhelum oru chance vennal parayane njan endhelum vazhi ready akkum. nalla reethil thanne samsarichi ready akka inshalla</li>
+                    <li>pinne emaan endha avastha. settalle, ath nallonam shredhikke</li>
+                    <li>ante emaan endha avastha nn onn crt parajero oru samadhanathinn. settan nna njan vijarikkne. ath nallonam shredhikka. ath ndavollu</li>
                     
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
