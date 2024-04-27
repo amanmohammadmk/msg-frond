@@ -69,8 +69,7 @@ function Home() {
             <div className='messages container'>
                 <h2>Sent Messages</h2>
                 <ul className="container" style={{ width: '100%', wordWrap: 'break-word' }}>
-
-                    <li>oi</li>
+                    
                     
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
