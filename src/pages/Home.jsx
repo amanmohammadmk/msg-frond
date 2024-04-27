@@ -52,12 +52,12 @@ function Home() {
             </div>
 
             <div>
-                <label htmlFor="">ask a question</label>
+                <label htmlFor=""></label>
                 <form onSubmit={handleSubmit}>
                     <textarea
                         cols="100"
                         rows="10"
-                        placeholder='endhelum onn choiko'
+                        placeholder=''
                         value={textareaValue}
                         onChange={handleChange}
                     />
