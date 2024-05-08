@@ -70,7 +70,11 @@ function Home() {
             <div className='messages container'>
                 <h2>Sent Messages</h2>
                 <ul className="container" style={{ width: '100%', wordWrap: 'break-word' }}>
-                    
+                    <li>assalamu alaikkum</li>
+                    <li>endha avastha oru vivarullalo</li>
+                    <li>examin padikke</li>
+                    <li>tension okke ozhivakk. vere onnum chindhikkanda only exam</li>
+                    <li>emaan shredikke</li>
                    
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
