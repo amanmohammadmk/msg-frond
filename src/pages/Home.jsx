@@ -76,6 +76,7 @@ function Home() {
                     <li>tension okke ozhivakk. vere onnum chindhikkanda only exam</li>
                     <li>emaan shredikke</li>
                     <li>pinne oru karyam endha vechal. ithonnum aloichi oru tension avanda tto. inshalla njan thanne kakkane kand ready akkum. nji duarnna mathi. ithonnum parayan patto areela. endhayalum ippam padikke.</li>
+                    <li>ith onn kettokkandi tto : <a href="https://youtu.be/AIL-IDcin3I?feature=shared">click here</a></li>
                    
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
