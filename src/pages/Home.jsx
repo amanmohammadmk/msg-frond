@@ -75,7 +75,7 @@ function Home() {
                     <li>examin padikke</li>
                     <li>tension okke ozhivakk. vere onnum chindhikkanda only exam</li>
                     <li>emaan shredikke</li>
-                    <li>pinne oru karyam endha vechal. ithonnum aloichi oru tension avanda tto. inshalla njan thanne kakkane kand ready akkum. nji duarnna mathi. ithonnum parayan patto areela. endhayalum ippam padikke./li>
+                    <li>pinne oru karyam endha vechal. ithonnum aloichi oru tension avanda tto. inshalla njan thanne kakkane kand ready akkum. nji duarnna mathi. ithonnum parayan patto areela. endhayalum ippam padikke.</li>
                    
                     {fetchedData.map((item, index) => (
                         <li key={index}>{item.text}</li>
